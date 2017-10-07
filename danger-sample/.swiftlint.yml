@@ -1,0 +1,24 @@
+disabled_rules:
+- line_length
+- trailing_newline
+- file_length
+- large_tuple
+- syntactic_sugar
+- redundant_string_enum_value
+- unused_optional_binding
+- notification_center_detachment
+
+cyclomatic_complexity:
+  warning: 15
+  error: 20
+  ignores_case_statements: true
+
+identifier_name:
+  excluded:
+  - id
+  - to
+  - fic_UUID
+  - fic_sourceImageUUID
+
+excluded:
+- Pods
